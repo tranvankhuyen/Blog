@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import About from "../pages/About";
+import { Link, Route, Routes } from "react-router-dom";
 function Header() {
   return (
     <header id="header">
@@ -9,8 +11,12 @@ function Header() {
           <p id="dot">.</p>
         </div>
         <div className="header-right">
-          <p className="home-btn">Trang Chủ</p>
-          <p className="about-btn">Giới thiệu</p>
+          <Link to="/">
+            <p className="home-btn">Trang Chủ</p>
+          </Link>
+          <Link to="/about">
+            <p className="about-btn">Giới thiệu</p>
+          </Link>
         </div>
       </div>
     </header>

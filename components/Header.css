@@ -28,5 +28,7 @@
 
 .home-btn, .about-btn {
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
