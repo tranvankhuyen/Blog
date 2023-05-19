@@ -1,13 +1,14 @@
 import React from "react";
 import "./Header.css";
-import About from "../pages/About";
 import { Link, Route, Routes } from "react-router-dom";
 function Header() {
   return (
     <header id="header">
       <div className="header">
         <div className="logo">
-          <p>Blog</p>
+          <Link to="/">
+            <p>PTKL</p>
+          </Link>
           <p id="dot">.</p>
         </div>
         <div className="header-right">

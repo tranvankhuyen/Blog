@@ -1,0 +1,90 @@
+.one-post {
+    position: relative;
+}
+
+
+.content {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 50px 60px;
+    width: 60%;
+    min-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+    border-radius: 10px;
+
+}
+
+.title-post {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-family: 'Merienda', cursive;
+    color: #1C1C1C;
+}
+
+
+.author-date {
+    position: absolute;
+    width: 60%;
+    min-width: 900px;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 60px;
+    left: 0;
+    right: 0;
+    color: rgb(255, 254, 242);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-name {
+    /* font-weight: bold; */
+}
+
+
+.date-post {
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    width: 50px;
+    margin: 20px 5px;
+    border-radius: 50%;
+    border: solid 5px #3c7363;
+}
+
+.content-post {
+    line-height: 40px;
+    text-align: justify;
+    padding: 0 5px;
+}
+
+.content-post h1, h2, h3 {
+    padding: 10px 0;
+    font-family: 'Merienda', cursive;
+}
+
+.content-post p, li {
+    font-family: 'Merienda', cursive;
+    color: #1C1C1C;
+}
+
+.content-post img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}

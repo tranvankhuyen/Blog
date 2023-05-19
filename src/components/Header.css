@@ -1,34 +1,45 @@
 
 .header {
     margin: 0 auto;
+    padding: 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 100%;
+    height: 8vh;
+    background-color: #5eb99f;
+
 }
 
 .logo {
     padding: 10px 30px;
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #3c7363;
+    text-decoration: none;
 }
 
 #dot {
-    color: green;
+    color: #3c7363;
     font-weight: 900;
 }
 
 .header-right {
     margin-right: 30px;
     padding: 5px;
-    width: 20%;
+    width: 220px;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
-.home-btn, .about-btn {
-    cursor: pointer;
+.header-right a {
+    font-family: 'Merienda', cursive;
     text-decoration: none;
-    color: black;
+    color: #3c7363;
 }
 
